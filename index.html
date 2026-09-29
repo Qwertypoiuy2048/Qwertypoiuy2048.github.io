@@ -4,66 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A home for Qwertypoiuy2048's GitHub projects." />
-    <title>Qwertypoiuy2048 — Projects</title>
+    <title>Qwertypoiuy2048 — Home</title>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
     <div class="page-glow" aria-hidden="true"></div>
-
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Back to top">
-        <span class="brand-mark">Q</span>
-        <span>Qwertypoiuy2048</span>
-      </a>
-      <nav aria-label="Main navigation">
-        <a href="#projects">Projects</a>
-        <a href="https://github.com/Qwertypoiuy2048" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-      </nav>
+      <a class="brand" href="index.html" aria-label="Back to homepage"><span class="brand-mark">Q</span><span>Qwertypoiuy2048</span></a>
+      <nav aria-label="Main navigation"><a href="projects.html">Projects</a><a href="https://github.com/Qwertypoiuy2048" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
     </header>
-
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot"></span> Building in public</p>
           <h1 id="hero-title">Ideas turned into<br /><span>working projects.</span></h1>
           <p class="hero-text">A collection of experiments, tools, and things I’m making on GitHub.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore projects <span aria-hidden="true">↓</span></a>
-            <a class="button button-quiet" href="https://github.com/Qwertypoiuy2048" target="_blank" rel="noreferrer">View profile <span aria-hidden="true">↗</span></a>
-          </div>
+          <div class="hero-actions"><a class="button button-primary" href="#featured">See featured work <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="https://github.com/Qwertypoiuy2048" target="_blank" rel="noreferrer">View profile <span aria-hidden="true">↗</span></a></div>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="code-card">
-            <span class="code-line"><i class="code-purple">const</i> <b>ideas</b> = [</span>
-            <span class="code-line indent"><i class="code-orange">"curious"</i>,</span>
-            <span class="code-line indent"><i class="code-orange">"useful"</i>,</span>
-            <span class="code-line indent"><i class="code-orange">"a little weird"</i></span>
-            <span class="code-line">];</span>
-            <span class="cursor"></span>
-          </div>
-        </div>
+        <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="code-card"><span class="code-line"><i class="code-purple">const</i> <b>ideas</b> = [</span><span class="code-line indent"><i class="code-orange">"curious"</i>,</span><span class="code-line indent"><i class="code-orange">"useful"</i>,</span><span class="code-line indent"><i class="code-orange">"a little weird"</i></span><span class="code-line">];</span><span class="cursor"></span></div></div>
       </section>
-
-      <section class="projects-section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Selected work</p>
-            <h2 id="projects-title">Projects</h2>
-          </div>
-          <p class="section-note" id="project-count">Loading repositories…</p>
-        </div>
-        <div class="project-grid" id="project-grid" aria-live="polite">
-          <div class="loading-card"><span class="spinner"></span> Fetching projects from GitHub…</div>
-        </div>
+      <section class="projects-section featured-section" id="featured" aria-labelledby="featured-title">
+        <div class="section-heading"><div><p class="eyebrow">A closer look</p><h2 id="featured-title">Featured projects</h2></div><a class="section-note text-link" href="projects.html">View all projects ↗</a></div>
+        <div class="featured-grid" id="featured-grid" aria-live="polite"><div class="loading-card"><span class="spinner"></span> Fetching featured projects…</div></div>
+      </section>
+      <section class="projects-section recent-section" aria-labelledby="recent-title">
+        <div class="section-heading"><div><p class="eyebrow">Freshly updated</p><h2 id="recent-title">Recent projects</h2></div><p class="section-note">Latest 3 repositories</p></div>
+        <div class="project-grid" id="recent-grid" aria-live="polite"><div class="loading-card"><span class="spinner"></span> Fetching recent projects…</div></div>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <p>Made with curiosity <span aria-hidden="true">✦</span></p>
-      <a href="https://github.com/Qwertypoiuy2048" target="_blank" rel="noreferrer">github.com/Qwertypoiuy2048 ↗</a>
-    </footer>
+    <footer class="site-footer"><p>Made with curiosity <span aria-hidden="true">✦</span></p><a href="https://github.com/Qwertypoiuy2048" target="_blank" rel="noreferrer">github.com/Qwertypoiuy2048 ↗</a></footer>
   </body>
 </html>
