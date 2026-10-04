@@ -4,7 +4,7 @@ const RECENT_LIMIT = 3;
 // Use your own repo name, "owner/repository", or a full GitHub URL.
 // Example: ['my-project', 'group-name/shared-project']
 // Leave empty to use the three most recently updated repositories for now.
-const FEATURED_REPOSITORIES = ['Wild-Magic-Surges','Tasks-For-Canvas','edwardskyler4/Cookmarked'];
+const FEATURED_REPOSITORIES = ['Wild-Magic-Surges', 'Tasks-For-Canvas', 'edwardskyler4/Cookmarked'];
 const projectGrid = document.querySelector('#project-grid');
 const featuredGrid = document.querySelector('#featured-grid');
 const recentGrid = document.querySelector('#recent-grid');
